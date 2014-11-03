@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+.grunt
+node_modules
+bower_components
+_SpecRunner.html

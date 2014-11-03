@@ -16,9 +16,11 @@
     "**/.*",
     "src",
     "index.html",
+    "index.css",
     "bower.json",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "_SpecRunner.html"
   ],
   "dependencies": {
     "jquery": "~2.1.1"

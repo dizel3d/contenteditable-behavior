@@ -29,10 +29,10 @@ module.exports = function(grunt) {
         },
         watch: {
             all: {
-                files: [gruntfile].concat(src, specs),
-                tasks: ['default', 'jshint', 'test'],
+                files: [].concat(src, specs),
+                tasks: ['build', 'jshint', 'test'],
                 options: {
-                    reload: true
+                    atBegin: true
                 }
             }
         },
@@ -45,6 +45,7 @@ module.exports = function(grunt) {
     });
 
     // plugins
+    grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-jshint');

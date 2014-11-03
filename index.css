@@ -1,0 +1,11 @@
+.editable {
+    color: red;
+}
+
+.editable p {
+    color: #333;
+}
+
+.editable span {
+    color: limegreen !important;
+}
